@@ -1,3 +1,12 @@
-<div>
-    <!-- Always remember that you are absolutely unique. Just like everyone else. - Margaret Mead -->
-</div>
+@include('header')
+
+
+<h1>Books</h1>
+<ul>
+    @foreach ($books as $book)
+    <li>{{$book}}</li>
+        
+    @endforeach
+</ul>
+
+@include('footer')
