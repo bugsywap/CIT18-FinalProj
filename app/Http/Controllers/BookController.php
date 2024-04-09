@@ -8,8 +8,8 @@ use App\Models\Book;
 class BookController extends Controller
 {
     public function index(){
-        $books = book::all();
+        $books = Book::all();
         
-        return view('index' , ['book' => $books]);
+        return view('index' , ['books' => $books]);
     }
 }

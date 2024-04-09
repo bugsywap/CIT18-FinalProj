@@ -3,7 +3,7 @@
 
 <h1>Books</h1>
 <ul>
-    @foreach ($book as $book)
+    @foreach ($books as $book)
     <li>{{$book}}</li>
         
     @endforeach
