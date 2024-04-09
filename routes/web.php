@@ -7,4 +7,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/index' , [BookController::class, 'index']);
+Route::get('/books' , [BookController::class, 'index']);
