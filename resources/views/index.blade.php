@@ -1,12 +1,12 @@
 @include('partials.header')
 
 <div class="container mx-auto">
-    <h1 class="text-2xl font-bold my-5">
+    <h1 class=" text-gray-200 text-2xl font-bold my-5">
         Books Collection
     </h1>
 
      <table class="w-full text-sm text-left rtl:text-right text-gray-500">
-        <thead class="text-xs text-gray-700 uppercase bg-blue-50">
+        <thead class="text-xs text-gray-200 uppercase">
             <tr>
                 <th class="border border-blue-400 px-4 py-2">ID</th>
                 <th class="border border-blue-400 px-4 py-2">ISBN</th>
